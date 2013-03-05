@@ -1,0 +1,6 @@
+* Wed Mar 06 2013 Patrick McCarty <patrick.mccarty@linux.intel.com> upstream/7.19.0@09d6a0a
+- Add packaging
+- Link with libcrypto
+- Don't build static libs
+- Imported Upstream version 7.19.0
+
