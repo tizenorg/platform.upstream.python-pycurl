@@ -42,6 +42,7 @@ python setup.py install -O1 --skip-build --root=%{buildroot} --prefix=%{_prefix}
 %remove_docs
 
 %files
+%manifest %{name}.manifest
 %license COPYING
 %manifest python-pycurl.manifest
 %{python_sitearch}/curl/*
